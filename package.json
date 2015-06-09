@@ -1,0 +1,19 @@
+{
+  "name": "example-hapi-csv-file-stream",
+  "version": "0.0.0",
+  "description": "Example of CSV upload and parse with HAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Lannigan <julian.lannigan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.9.27",
+    "boom": "^2.7.2",
+    "csv-parse": "^0.1.3",
+    "hapi": "^8.6.1",
+    "joi": "^6.4.3",
+    "stream-transform": "0.0.8"
+  }
+}
